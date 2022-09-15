@@ -8,5 +8,7 @@ Rails.application.routes.draw do
 
   resources :users, only: [:show, :edit, :update]
 
+  resources :articles
+
   # get "users/:id", to: "users#show"
 end
